@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 // Methods 
 // functions inside objects 
 
@@ -25,7 +24,7 @@ const person3 = {
 
 person1.about();
 person2.about();
-=======
+
 // Methods 
 // functions inside objects 
 
@@ -52,5 +51,4 @@ const person3 = {
 
 person1.about();
 person2.about();
->>>>>>> fac8e3c497dc0c64a6de2fc8e625707d10d8eec1
 person3.about(); 
