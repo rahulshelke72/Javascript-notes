@@ -8,4 +8,6 @@ function myFunction(){
 var firstName = "Harshit";
 var lastName = "Sharma";
 var fullName = firstName + " "+lastName;
+console.log(firstName);
+console.log(lastName);
 console.log(fullName);
