@@ -1,0 +1,9 @@
+function Outerfunction(){
+    function Innerfunction(){
+        console.log("Hello js");
+    }
+    return Innerfunction;
+}
+
+const ans = Outerfunction();
+ans();
