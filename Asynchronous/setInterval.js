@@ -8,7 +8,7 @@
 
 const btn = document.getElementById('btn');
 const body =  document.body;
-setInterval(() => {
+const intervalId = setInterval(() => {
     const red = Math.floor(Math.random() * 126);
     const green = Math.floor(Math.random() * 126);
     const black = Math.floor(Math.random() * 126);
@@ -16,3 +16,13 @@ setInterval(() => {
     body.style.background = rgb;
     
 }, 1000);
+
+const button = document.querySelector("button");
+console.log(button);
+
+button.addEventListener("click",()=>{
+    clearInterval(intervalId);
+    button.textContent = body.style.background;
+});
+
+console.log(intervalId);
